@@ -1,0 +1,76 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-text-color: #ffffff;
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+/*Logo*/
+
+.logo {
+  color: var(--title-text-color);
+}
+
+.logo-web {
+  color: var(--accent-color);
+}
+
+/*Lists*/
+
+.list {
+  list-style: none;
+}
+
+/*Navigation*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-nav .link {
+  color: var(--primary-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*Networks*/
+
+.network .link {
+  color: var(--primary-text-color);
+}
+.network .link:hover {
+  color: var(--accent-color);
+}
+
+/*Section titles*/
+
+.section-title,
+.list-title {
+  color: var(--title-text-color);
+}
+
+/* Button*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.button:hover {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}

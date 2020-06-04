@@ -11,36 +11,41 @@
     <!-- Header -->
     <header>
       <nav>
-        <ul>
-          <li>
-            <a href="#"><span>Web</span>Studio</a>
-          </li>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+
+        <ul class="site-nav list">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="#" class="link">Портфолио</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
 
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contacts-nav list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
       </ul>
     </header>
 
     <!--<h1>Контент страницы Портфолио</h1>-->
     <section>
-      <ul>
-        <li><a href="#">Все</a></li>
-        <li><a href="#">Веб-сайты</a></li>
-        <li><a href="#">Приложения</a></li>
-        <li><a href="#">Дизайн</a></li>
-        <li><a href="#">Маркетинг</a></li>
+      <ul class="list">
+        <li><a href="#" class="button">Все</a></li>
+        <li><a href="#" class="button">Веб-сайты</a></li>
+        <li><a href="#" class="button">Приложения</a></li>
+        <li><a href="#" class="button">Дизайн</a></li>
+        <li><a href="#" class="button">Маркетинг</a></li>
       </ul>
     </section>
 
-    <section>
+    <section class="section">
       <!--<h2>Услуги</h2>-->
-      <ul>
+      <ul class="list">
         <li>
           <img
             src="./img/portfolio/project1.jpg"
@@ -48,7 +53,7 @@
             width="370"
             height="295"
           />
-          <h3>Технокряк</h3>
+          <h3 class="list-title">Технокряк</h3>
           <p>Веб-сайт</p>
           <span>
             Технокряк это современная площадка распространения коронавируса.
@@ -63,7 +68,7 @@
             width="370"
             height="295"
           />
-          <h3>Постер New Orlean vs Golden Star</h3>
+          <h3 class="list-title">Постер New Orlean vs Golden Star</h3>
           <p>Дизайн</p>
         </li>
         <li>
@@ -73,7 +78,7 @@
             width="370"
             height="295"
           />
-          <h3>Ресторан Seafood</h3>
+          <h3 class="list-title">Ресторан Seafood</h3>
           <p>Приложение</p>
         </li>
         <li>
@@ -83,7 +88,7 @@
             width="370"
             height="295"
           />
-          <h3>Проект Prime</h3>
+          <h3 class="list-title">Проект Prime</h3>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -93,7 +98,7 @@
             width="370"
             height="295"
           />
-          <h3>Проект Boxes</h3>
+          <h3 class="list-title">Проект Boxes</h3>
           <p>Приложение</p>
         </li>
         <li>
@@ -103,7 +108,7 @@
             width="370"
             height="295"
           />
-          <h3>Inspiration has no Borders</h3>
+          <h3 class="list-title">Inspiration has no Borders</h3>
           <p>Веб-сайт</p>
         </li>
         <li>
@@ -113,7 +118,7 @@
             width="370"
             height="295"
           />
-          <h3>Издание Limited Edition</h3>
+          <h3 class="list-title">Издание Limited Edition</h3>
           <p>Дизайн</p>
         </li>
         <li>
@@ -123,7 +128,7 @@
             width="370"
             height="295"
           />
-          <h3>Проект LAB</h3>
+          <h3 class="list-title">Проект LAB</h3>
           <p>Маркетинг</p>
         </li>
         <li>
@@ -133,7 +138,7 @@
             width="370"
             height="295"
           />
-          <h3>Growing Business</h3>
+          <h3 class="list-title">Growing Business</h3>
           <p>Приложение</p>
         </li>
       </ul>
@@ -142,7 +147,9 @@
     <!-- Footer -->
     <footer>
       <div>
-        <a href="#"><span>Web</span>Studio</a>
+        <a href="./index.html" class="logo"
+          ><span class="logo-web">Web</span>Studio</a
+        >
         <address>
           г.Киев, пр-т Леси Украинки, 26 <br />
           <a href="mailto:info@example.com">info@example.com</a><br />
@@ -152,11 +159,25 @@
 
       <div>
         <h4>Присоединяйтесь</h4>
-        <ul>
-          <li><a href="#" aria-label="Ссылка на Instagram">Instagram</a></li>
-          <li><a href="#" aria-label="Ссылка на Twitter">Twitter</a></li>
-          <li><a href="#" aria-label="Ссылка на Facebook">Facebook</a></li>
-          <li><a href="#" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+        <ul class="network list">
+          <li>
+            <a href="#" aria-label="Ссылка на Instagram" class="link"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a href="#" aria-label="Ссылка на Twitter" class="link">Twitter</a>
+          </li>
+          <li>
+            <a href="#" aria-label="Ссылка на Facebook" class="link"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="#" aria-label="Ссылка на LinkedIn" class="link"
+              >LinkedIn</a
+            >
+          </li>
         </ul>
       </div>
 
