@@ -23,48 +23,37 @@ body {
   font-size: 26px;
   line-height: 1.2;
   /* identical to box height */
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
   text-decoration: none;
-}
-
-.logo-web {
-  color: var(--accent-color);
 }
 
 /*Navigation*/
 
-.site-nav .link {
+.logo-web,
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link,
+.contacts-nav .link {
   color: var(--title-text-color);
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.02px;
   text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
+.site-nav .link:focus,
 .site-nav .link.current {
   color: var(--accent-color);
 }
 
 .contacts-nav .link {
   color: var(--primary-text-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
-  color: var(--accent-color);
 }
 
 /*Hero*/
@@ -74,7 +63,7 @@ body {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06px;
   text-transform: uppercase;
 }
 
@@ -97,7 +86,7 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 /*Lists*/
@@ -112,14 +101,14 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
   text-transform: uppercase;
 }
 
 .features .text {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 .team .title {
@@ -129,14 +118,14 @@ body {
   font-size: 16px;
   line-height: 1.2;
   /* identical to box height */
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 .team .profession {
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 .projects .title {
@@ -145,7 +134,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06px;
 }
 
 .projects .area {
@@ -153,13 +142,13 @@ body {
 
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 .projects .description {
   font-size: 18px;
   line-height: 1.56;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 .projects .link {
@@ -175,7 +164,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.06px;
 }
 
 .button {
@@ -186,7 +175,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.03px;
 }
 
 .button:hover {
@@ -196,6 +185,37 @@ body {
 
 /*Footer*/
 
-.footer-links {
+.footer-links,
+.footer-text,
+.footer-copyright {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03px;
+}
+
+.footer-links,
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.footer-bgc {
+  background-color: #2f303a;
+}
+
+.footer-text {
+  color: var(--white-text-color);
+}
+
+.footer-sign {
+  color: var(--white-text-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+}
+
+.logo-studio {
+  color: var(--white-text-color);
 }
